@@ -1,0 +1,18 @@
+.tonal-button {
+    background: var(--buttonPrimaryBg);
+    padding: rem(8px) rem(16px);
+    border-radius: rem(48px);
+    color: var(--buttonPrimaryColor);
+    transition: .1s cubic-bezier(0.3, 0, 1, 1);
+    font-weight: 600;
+
+    &:hover {
+        background: var(--buttonPrimaryBgHover);
+        color: var(--buttonPrimaryColor);
+        transition: .1s cubic-bezier(0, 0, 0, 1);
+
+        .material-icon {
+            font-variation-settings: "FILL" 1,"wght" 600,"opsz" 24;
+        }
+    }
+}

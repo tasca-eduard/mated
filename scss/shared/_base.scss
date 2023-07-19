@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primaryFont);
+    color: var(--bodyColor);
+}
+
+html {
+    font-size: var(--htmlFontSize);
+}
+
+body {
+    background: var(--bodyBg);
+}
+
+main {
+    padding: rem(24px);
+}

@@ -1,0 +1,88 @@
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: rem(-8px);
+    margin-right: rem(-8px);
+
+    &.reflow {
+        @media screen and (max-width: 767px) {
+            & > .column {
+                flex-basis: 100%;
+
+                &.xxl {
+                    flex-basis: 100%;
+                }
+
+                &.xl {
+                    flex-basis: 100%;
+                }
+
+                &.l {
+                    flex-basis: 100%;
+                }
+
+                &.m {
+                    flex-basis: 100%;
+                }
+
+                &.s {
+                    flex-basis: 100%;
+                }
+
+                &.xs {
+                    flex-basis: 100%;
+                }
+
+                &.xxs {
+                    flex-basis: 100%;
+                }
+            }
+        }
+    }
+
+    .column {
+        flex-basis: 33.33%;
+        padding: rem(8px);
+
+        &.fill {
+            flex: 1;
+        }
+
+        &.xxl {
+            flex-basis: 83.33%;
+        }
+
+        &.xl {
+            flex-basis: 70%;
+        }
+
+        &.l {
+            flex-basis: 66.66%;
+        }
+
+        &.m {
+            flex-basis: 50%;
+        }
+
+        &.s {
+            flex-basis: 25%;
+        }
+
+        &.xs {
+            flex-basis: 20%;
+        }
+
+        &.xxs {
+            flex-basis: 16.66%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+    }
+}

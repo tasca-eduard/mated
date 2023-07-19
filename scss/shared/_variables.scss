@@ -1,0 +1,31 @@
+:root {
+    --htmlFontSize: 16px; 
+
+    --primaryFont: 'Montserrat', sans-serif;
+}
+
+.dark-theme {
+    --bodyBg: #1f1f1f;
+    --primaryBg: #28292a;
+    --secondaryBg: #2d2f31;
+    --tertiaryBg: #333333;
+
+    --bodyColor: #d3d3d3;
+    --primaryColor: #d3d3d3;
+    --secondaryColor: #d3d3d3;
+    --tertiaryColor: #d3d3d3;
+
+    --heroTextColor: #f3f3f3;
+
+    --buttonPrimaryBg: #a8c7fa;
+    --buttonPrimaryBgHover: #afcbfa;
+    --buttonPrimaryColor: #062e6f;
+    --buttonPrimaryHover: #062e6f;
+
+    --navLinkColor: #c4c7c5;
+    --navLinkColorHover: #e3e3e3;
+    --navLinkBgHover: #393c3c;
+    --navLinkColorActive: #c2e7ff;
+
+    --accent: #004a77;
+}
